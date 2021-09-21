@@ -1,0 +1,56 @@
+/* Document-wide elements */
+
+body {
+    max-height: 100vh;
+    background-color: #D8F2B8;
+    font-family: "Oswald", sans-serif;
+    font-size: 1rem;
+    color: #42493A;
+    margin: auto;
+}
+
+h2, h4 {
+    font-family: "Londrina Solid", "Arial Black", sans-serif;
+    text-transform: uppercase;
+}
+
+/* Header-level elements */
+
+/* Logo elements */
+
+header {
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: "Londrina Solid", "Arial Black", sans-serif;
+    display: flex;
+}
+
+.logo__dj {
+    font-size: 9.5rem;
+    writing-mode: sideways-lr;
+    text-align: bottom;
+    line-height: 7rem;
+}
+
+.logo_rows {
+    display: flex;
+    align-items: space-evenly;
+}
+
+.logo__eye {
+    font-size: 7rem;
+    max-height: 6.5rem;
+}
+
+.logo__drops {
+    font-size: 3.9rem;
+    line-height: 3.75rem;
+}
+
+/* Blog article elements */
+
+.blog__date {
+ font-size: 1.2rem;
+}
