@@ -1,12 +1,21 @@
 /* Document-wide elements */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    max-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    max-width: 95%;
     background-color: #D8F2B8;
     font-family: "Oswald", sans-serif;
     font-size: 1rem;
     color: #42493A;
-    margin: auto;
+
 }
 
 h2, h4 {
@@ -16,15 +25,24 @@ h2, h4 {
 
 /* Header-level elements */
 
-/* Logo elements */
-
 header {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.logo {
+.push {
+    width: 100%;
+}
+
+.logo, nav  {
     text-transform: uppercase;
     font-family: "Londrina Solid", "Arial Black", sans-serif;
     display: flex;
+}
+
+.logo a {
+    display: block;
+    text-decoration: none;
 }
 
 .logo__dj {
@@ -49,8 +67,32 @@ header {
     line-height: 3.75rem;
 }
 
-/* Blog article elements */
+nav {    
+    width: 100%;
+    display: inline;
+    padding-top: 3%;
+}
 
-.blog__date {
- font-size: 1.2rem;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding-left: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: #42493A;
+    transition: color 1s, width 2s;
+}
+
+a:hover {
+    color: #74DCEE;
+
 }
