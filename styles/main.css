@@ -22,18 +22,18 @@ h2, h4 {
 }
 
 h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 h4 { 
-    font-size: 2.25rem;
+    font-size: 1.75rem;
 }
 
-/* Header-level elements */
+/* Header-level elements and logo */
 
 header {
     display: flex;
@@ -52,7 +52,7 @@ header {
 }
 
 .logo__dj {
-    font-size: 9.5rem;
+    font-size: 8.5rem;
     writing-mode: sideways-lr;
     text-align: bottom;
     line-height: 7rem;
@@ -60,35 +60,32 @@ header {
 
 .logo_rows {
     display: flex;
-    align-items: space-evenly;
 }
 
 .logo__eye {
-    font-size: 7rem;
-    max-height: 6.5rem;
+    font-size: 5rem;
+    max-height: 5rem;
 }
 
 .logo__drops {
-    font-size: 3.9rem;
+    font-size: 3.4rem;
     line-height: 3.75rem;
 }
 
 .navwrapper {
-    display: flex;
-    overflow: visible;
-    justify-self: right;
-    width: auto;
+    flex: 1;
+    text-align: right;
 }
 
 nav ul {
-    display: flex;
     list-style-type: none;
 }
 
 nav li {
     font-family: "Londrina Solid", "Arial Black", sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     padding-left: 9%;
+    display: inline;
 }
 
 header a {
@@ -98,17 +95,19 @@ header a {
 }
 
 .social_icons {
-    display: flex;
-    align-self: flex-end;
-    justify-content: space-evenly;
-    margin-right: 0;
-    width: inherit;
+    display: inline;
+    max-width: 40%;
 }
 
 i {
     font-size: 2rem;
+    padding-left: 3%;
+    text-align: center;
 }
 
 a:hover {
     color: #74DCEE;
 }
+
+/* Footer */
+
