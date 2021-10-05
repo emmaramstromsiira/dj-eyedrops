@@ -1,9 +1,22 @@
 
 
-.blog_grid___container {
+
+.blogbox {
     margin: auto;
+    padding: 1rem;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
-.blog_grid__img {
-    max-width: 360px
+.bloxbox_story {
+    display: flex;
+    max-width: 33%;
+    flex-wrap: wrap;
 }
+
+.blogbox_story__img {
+    max-width: 360px;
+}
+

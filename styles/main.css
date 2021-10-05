@@ -36,7 +36,6 @@ header, footer {
     background-color: #C9E8B5;
     display: flex;
     flex-grow: 0;
-    max-height: 20%;
 }
 
 header {
@@ -55,18 +54,45 @@ header a, footer a {
 }
 
 main {
-    max-width: 90%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 3rem 0rem 3rem 0rem;
     margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 a:hover {
     color: #74DCEE;
 }
 
+/* add transition effect here */
+
 .hero {
-    max-width: 80%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #C9E8B5;
+    width: 100%;
+}
+
+.page_section_title {
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    padding: 1rem 3rem 1rem 3rem;
+    margin-top: 2rem;
+    border: 3px solid #42493A;
+    background-color: #C9E8B5;
+    color: #42493A;
+    text-transform: uppercase;
+    font-family: "Londrina Solid", sans-serif;
+}
+
+button a {
+    text-decoration: none;
 }
 
 /* Social icons */
@@ -139,8 +165,6 @@ nav li {
 /* Footer */
 
 footer {
-    position: absolute;
-    bottom: 0;
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
