@@ -1,13 +1,9 @@
 
-main {
-    margin: auto;
-    padding: 5%;
-}
-
-.hero {
-    max-width: 80%;
-}
 
 .blog_grid___container {
     margin: auto;
+}
+
+.blog_grid__img {
+    max-width: 360px
 }
