@@ -160,3 +160,138 @@ know how to get rid of it - any ideas? */
     text-align: right;
     padding-right: 5%;
 }
+
+
+
+
+.gallery{
+    width: 100vw;
+    height: 85px;
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 85px;
+    color: #42493A;
+    text-align: center;
+}
+
+
+
+.pic_wrapper{
+    
+    background-color: #C9E8B5;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+    
+
+
+.pic1_gallery{
+    height: 325px;
+    width:1110px ;
+    background-image: url(/images/pics_gallery/gallery3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.biography_gallery{
+    width: 100vw;
+    height: 85px;
+    text-align: center;
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+    color: #42493A;
+    margin-bottom: 40px;
+    
+
+}
+
+.wrapper_bio_text{
+   
+    width:100vw ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.bio_text{
+    width: 1300px;
+    height: 700px;
+    text-align: center;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    text-align: center;
+    color: #42493A;
+}
+
+.photos_gallery{
+    width: 100vw;
+    height: 65px;
+    text-align: center;
+    font-family: Londrina Solid;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px; 
+    color: #42493A;
+    margin-bottom: 40px;
+}
+
+.grid_gallery{
+    grid-template-columns:repeat(12, 1fr) ;
+    grid-template-rows:repeat(12, 1fr) ;
+    width: 1110px;
+    height: 800px;
+    display: grid;
+    grid-gap: 3px;
+}
+.grid_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 800px;
+}
+.pic_1{
+    border: 3px solid black;
+    grid-column: 1/5;
+    grid-row: 1/7;
+    background-image: url(/images/pics_gallery/gallery17.jpg);
+}
+.pic_2{
+    grid-column: 5/9;
+    grid-row: 1/13;
+    background-image: url(/images/pics_gallery/gallery16.jpg);
+    border: 3px solid black;
+
+}
+.pic_3{
+    background-image:url(/images/pics_gallery/gallery14.jpg) ;
+    grid-column:9/13 ;
+    grid-row:1/7 ;
+    border: 3px solid black;
+}
+
+.pic_4{
+    background-image:url(/images/pics_gallery/gallery5.jpg) ;
+    grid-column:1/5 ;
+    grid-row:7/13 ;
+    border: 3px solid black;
+}
+.pic_5{
+    background-image: url(/images/pics_gallery/gallery13.jpg);
+    grid-column:9/13 ;
+    grid-row:7/13 ;
+    border: 3px solid black;
+}
