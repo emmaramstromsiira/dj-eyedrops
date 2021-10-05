@@ -4,16 +4,15 @@
 .blogbox {
     margin: auto;
     padding: 1rem;
-    max-width: 90%;
+    max-width: 95%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .bloxbox_story {
     display: flex;
-    max-width: 33%;
-    flex-wrap: wrap;
+    flex-basis: min-content;
+    justify-content: flex-start;
 }
 
 .blogbox_story__img {
