@@ -6,16 +6,18 @@
     padding: 1rem;
     max-width: 95%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.bloxbox_story {
+.blogbox_story {
     display: flex;
-    flex-basis: min-content;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
 }
 
 .blogbox_story__img {
-    max-width: 360px;
+    width: 360px;
+    height: 260px;
+    object-fit: cover;
 }
-
