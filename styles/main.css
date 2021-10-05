@@ -88,7 +88,7 @@ i {
     text-transform: uppercase;
     font-family: "Londrina Solid", "Arial Black", sans-serif;
     display: flex;
-    width: 35%;
+    align-items: center;
 }
 
 .logo a {
@@ -96,10 +96,11 @@ i {
 }
 
 .logo__dj {
-    font-size: 5rem;
+    font-size: 5.5rem;
     writing-mode: sideways-lr;
-    text-align: bottom;
-    line-height: 5rem;
+    line-height: 4rem;
+    padding-left: 1rem;
+    padding-top:.5rem;
 }
 
 .logo_rows {
@@ -107,13 +108,13 @@ i {
 }
 
 .logo__eye {
-    font-size: 3rem;
-    max-height: 3rem;
+    font-size: 4rem;
+    max-height: 3.5rem;
 }
 
 .logo__drops {
     font-size: 2.4rem;
-    line-height: 2.5rem;
+    line-height: rem;
 }
 
 /* Navbar */
