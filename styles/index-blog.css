@@ -17,5 +17,7 @@
 }
 
 .blogbox_story__img {
-    max-width: 360px;
+    width: 360px;
+    height: 260px;
+    object-fit: cover;
 }
