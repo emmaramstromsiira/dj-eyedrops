@@ -108,7 +108,7 @@ i {
     text-align: center;
 }
 
-/* Logo - I know the logo is broken on chrome - I'm working on it */
+/* Logo - should be fixed on both FF and Chrome now */
 
 .logo  {
     text-transform: uppercase;
