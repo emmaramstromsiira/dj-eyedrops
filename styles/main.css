@@ -88,7 +88,7 @@ i {
     text-transform: uppercase;
     font-family: "Londrina Solid", "Arial Black", sans-serif;
     display: flex;
-    align-items: center;
+    padding-left: 10%;
 }
 
 .logo a {
@@ -96,11 +96,10 @@ i {
 }
 
 .logo__dj {
-    font-size: 5.5rem;
-    writing-mode: sideways-lr;
-    line-height: 4rem;
-    padding-left: 1rem;
-    padding-top:.5rem;
+    font-size: 5.75rem;
+    transform: rotate(270deg);
+    margin-right: -3%;
+    padding: 0;
 }
 
 .logo_rows {
