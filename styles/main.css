@@ -8,7 +8,6 @@ html {
 
 body {
     height: 100vh;
-    width: 100vw;
     margin: auto;
     background-color: #D8F2B8;
     font-family: "Oswald", sans-serif;
@@ -22,6 +21,7 @@ h2, h4 {
 }
 
 h2 {
+    font-size: 3rem;
 }
 
 h3 {
@@ -35,9 +35,12 @@ h4 {
 header, footer {
     background-color: #C9E8B5;
     display: flex;
+    flex-grow: 0;
 }
 
 header {
+    padding-top: 2%;
+    padding-bottom: 2%;
     position: sticky;
 }
 
@@ -63,6 +66,9 @@ a:hover {
     color: #74DCEE;
 }
 
+/* add transition effect here */
+
+.hero {
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -89,6 +95,7 @@ button a {
     text-decoration: none;
 }
 
+/* Social icons */
 
 .social_icons {
     display: inline;
@@ -107,7 +114,7 @@ i {
     text-transform: uppercase;
     font-family: "Londrina Solid", "Arial Black", sans-serif;
     display: flex;
-    width: 35%;
+    padding-left: 10%;
 }
 
 .logo a {
@@ -115,10 +122,10 @@ i {
 }
 
 .logo__dj {
-    font-size: 8.5rem;
-    writing-mode: sideways-lr;
-    text-align: bottom;
-    line-height: 6.4rem;
+    font-size: 5.75rem;
+    transform: rotate(270deg);
+    margin-right: -3%;
+    padding: 0;
 }
 
 .logo_rows {
@@ -126,13 +133,13 @@ i {
 }
 
 .logo__eye {
-    font-size: 5.6rem;
-    max-height: 5rem;
+    font-size: 4rem;
+    max-height: 3.5rem;
 }
 
 .logo__drops {
-    font-size: 3.4rem;
-    line-height: 3.5rem;
+    font-size: 2.4rem;
+    line-height: rem;
 }
 
 /* Navbar */
@@ -140,6 +147,7 @@ i {
 .navwrapper {
     flex: 1;
     text-align: right;
+    padding-right: 2%;
 }
 
 nav ul {
@@ -148,7 +156,7 @@ nav ul {
 
 nav li {
     font-family: "Londrina Solid", "Arial Black", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-left: 9%;
     display: inline;
 }
@@ -161,8 +169,7 @@ footer {
     align-items: baseline;
     flex-wrap: wrap;
     padding-bottom: 5%;
-    width:100%;
-
+    width: 100%;
 }
 
 .spacer {
@@ -175,7 +182,7 @@ footer {
 know how to get rid of it - any ideas? */
 
 .divider {
-    border-top: .3rem solid #000;
+    border-top: .3rem solid #42493A;
     width: 90%;
 }
 
@@ -187,139 +194,4 @@ know how to get rid of it - any ideas? */
     font-family: "Londrina Solid", "Arial Black", sans-serif;
     text-align: right;
     padding-right: 5%;
-}
-
-
-
-
-.gallery{
-    width: 100vw;
-    height: 85px;
-    font-family: Londrina Solid;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 72px;
-    line-height: 85px;
-    color: #42493A;
-    text-align: center;
-}
-
-
-
-.pic_wrapper{
-    
-    background-color: #C9E8B5;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-
-    
-
-
-.pic1_gallery{
-    height: 325px;
-    width:1110px ;
-    background-image: url(/images/img_gallery/pic8.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-
-}
-.biography_gallery{
-    width: 100vw;
-    height: 85px;
-    text-align: center;
-    font-family: Londrina Solid;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 57px;
-    color: #42493A;
-    margin-bottom: 40px;
-    
-
-}
-
-.wrapper_bio_text{
-   
-    width:100vw ;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.bio_text{
-    width: 1300px;
-    height: 700px;
-    text-align: center;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 47px;
-    text-align: center;
-    color: #42493A;
-}
-
-.photos_gallery{
-    width: 100vw;
-    height: 65px;
-    text-align: center;
-    font-family: Londrina Solid;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 57px; 
-    color: #42493A;
-    margin-bottom: 40px;
-}
-
-.grid_gallery{
-    grid-template-columns:repeat(12, 1fr) ;
-    grid-template-rows:repeat(12, 1fr) ;
-    width: 1110px;
-    height: 800px;
-    display: grid;
-    grid-gap: 3px;
-}
-.grid_wrapper{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 800px;
-}
-.pic_1{
-    border: 3px solid black;
-    grid-column: 1/5;
-    grid-row: 1/7;
-    background-image: url(/images/img_gallery/pc1.jpg);
-}
-.pic_2{
-    grid-column: 5/9;
-    grid-row: 1/13;
-    background-image: url(/images/img_gallery/pic2.jpg);
-    border: 3px solid black;
-
-}
-.pic_3{
-    background-image:url(/images/img_gallery/pic4.jpg) ;
-    grid-column:9/13 ;
-    grid-row:1/7 ;
-    border: 3px solid black;
-}
-
-.pic_4{
-    background-image:url(/images/img_gallery/pic7.jpg) ;
-    grid-column:1/5 ;
-    grid-row:7/13 ;
-    border: 3px solid black;
-}
-.pic_5{
-    background-image: url(/images/img_gallery/pic6.jpg);
-    grid-column:9/13 ;
-    grid-row:7/13 ;
-    border: 3px solid black;
 }
